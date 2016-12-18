@@ -1,0 +1,192 @@
+/*通用样式*/
+*{
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	color: #797979;
+	font-size: 14px;
+	font-family: 'Open Sans',sans-serif;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+b,i,h1,h2,h3{
+	font-weight: normal;
+}
+ul,li{
+	list-style: none;
+}
+input{
+	outline: none;
+	border: none;
+}
+.clear{
+	zoom: 1;
+}
+.clear:after{
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+.w1160{
+	width: 1160px;
+}
+.container{
+	margin: 0 auto;
+	padding: 0 15px
+}
+/*顶部导航*/
+header{
+	margin-top: 90px;
+	width: 100%;
+	min-height: 100px;
+	background-color: white;
+}
+header .logo{
+	float: left;
+	padding: 0 15px;
+	line-height: 30px;
+	font-size: 30px;
+}
+header .logo a{
+	float: left;
+	padding: 30px 0;
+}
+header .mainNav{
+	float: right;
+}
+header .mainNav ul{
+	float: left;
+}
+header .mainNav ul li{
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+header .mainNav ul li a{
+	display: block;
+	padding: 5px 15px 6px;
+	margin-left: 2px;
+	line-height: 30px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	transition: all .3s ease;
+}
+header .mainNav ul li a b{
+	float: right;
+	margin-top: 5px;
+	margin-left: 5px;
+	line-height: 30px;
+}
+header .mainNav ul li a:hover{
+	color: white;
+	background: #F77B6F;
+}
+header .mainNav .feature{
+	position: relative;
+}
+header .mainNav ul li a.feature .select{
+	position: absolute;
+	left: 0;
+	padding-top: 35px;
+	width: 100%;
+	background: white;
+	display: none;
+	z-index: 1;
+}
+header .mainNav ul li a:hover .select{
+	display: block;
+}
+header .mainNav ul li a.feature .select .box{
+	border: 1px solid #475268;
+}
+header .mainNav ul li a.feature .select .box p{
+	color: #797979;
+	padding: 5px 0 5px 15px;
+	cursor: pointer;
+}
+header .mainNav ul li a.feature .select .box p:hover{
+	color: white;
+	background: #F77B6F;
+}
+header .mainNav ul .search{
+	margin-top: 10px;
+	padding: 5px 5px 5px 25px;
+	width: 18px;
+	background: url(../img/search-icon.jpg) no-repeat;
+	background-position: left center; 
+	transition: all .3s linear;
+}
+header .mainNav ul .search:focus{
+	width: 100%;
+	border: 1px solid #EAEAEA;
+}
+/*底部导航*/
+footer{
+	margin-top: 100px;
+	background: #475268;
+}
+footer .w1160 div{
+	float: left;
+	padding: 50px 15px;
+	min-height: 1px;
+	color: white;
+}
+footer .w1160 h2{
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+footer .w1160 p{
+	margin: 0 0 10px;
+	line-height: 22px;
+	font-weight: 300;
+	color: #fff;
+}
+footer .w1160 a{
+	color: #F77B6F;
+}
+footer .w1160 span{
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #fff;
+}
+footer .w1160 div:nth-child(2) a{
+	opacity: 0;
+}
+footer .w1160 div:nth-child(2) a:hover{
+	opacity: 1;
+}
+footer .w1160 div:nth-child(3){
+	float: right;
+	width: 25%;
+}
+footer .w1160 ul{
+	margin-bottom: 10px;
+}
+footer .w1160 ul li{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+footer .w1160 ul li a{
+	float: left;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	background: #505B71;
+}

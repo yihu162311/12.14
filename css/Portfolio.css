@@ -1,0 +1,19 @@
+.subNav{
+	margin-bottom: 40px;
+	padding: 45px 0;
+	color: white;
+	background: #475268;
+}
+.subNav h2{
+	float: left;
+	font-size: 24px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.subNav .navRight{
+	float: right;
+	min-height: 1px;
+}
+.subNav .navRight a{
+	color: #F77B6F;
+}
